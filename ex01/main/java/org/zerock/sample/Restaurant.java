@@ -1,4 +1,4 @@
-package org.zerok.sample;
+package org.zerock.sample;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -11,5 +11,5 @@ import lombok.Setter;
 public class Restaurant {
 
 	@Setter(onMethod_ = @Autowired)
-	private Chef chef;	// Chef chef = new Chef(); 
+	private Chef chef;	// Chef chef = new Chef();	
 }
